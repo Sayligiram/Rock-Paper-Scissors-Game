@@ -16,29 +16,29 @@ while True:
 
     computer = random.choice(choices)
 
-    print("You chose:", user)
+    print("User chose:", user)
     print("Computer chose:", computer)
 
     if user == computer:
         print("It's a tie")
 
     elif user == "rock" and computer == "scissors":
-        print("You win")
+        print("user win")
         user_score += 1
 
     elif user == "paper" and computer == "rock":
-        print("You win")
+        print("user win")
         user_score += 1
 
     elif user == "scissors" and computer == "paper":
-        print("You win")
+        print("user win")
         user_score += 1
 
     else:
         print("Computer wins")
         computer_score += 1
 
-    print("Your score:", user_score)
+    print("user score:", user_score)
     print("Computer score:", computer_score)
 
     play_again = input("\nDo you want to play again? (yes/no): ").lower()
@@ -47,11 +47,11 @@ while True:
         break
 
 print("\n FINAL SCORE ")
-print("Your score:", user_score)
+print("User score:", user_score)
 print("Computer score:", computer_score)
 
 if user_score > computer_score:
-    print("You won the game")
+    print("User won the game")
 
 elif computer_score > user_score:
     print("Computer won the game")
