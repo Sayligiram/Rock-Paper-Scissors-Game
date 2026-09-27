@@ -7,7 +7,6 @@ About the Project
 This is a simple command-line game where the user plays Rock Paper Scissors against the computer. The computer randomly selects one of the three choices, and the winner is decided based on the game rules.
 
 Features
-
 - User can choose Rock, Paper, or Scissors
 - Computer makes a random choice
 - Displays both choices
@@ -18,7 +17,6 @@ Features
 - Shows the final score
 
 using the topics
-
 - Python
 - Random module
 - Conditional statements
@@ -28,15 +26,10 @@ using the topics
 - User input
 
 How to Run
-
-1. Install Python.
-2. Download or clone this repository.
-3. Open the Python file.
-4. Run the program.
-5. Enter "rock", "paper", or "scissors" when prompted.
+ Run the program,
+ Enter "rock", "paper", or "scissors" when printed
 
 Game Rules
-
 - Rock beats Scissors
 - Scissors beats Paper
 - Paper beats Rock
